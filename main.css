@@ -1,0 +1,261 @@
+/* Overall Starting */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 20px;
+	color: black;
+	background: #ffffff;
+	line-height: 20px;
+	letter-spacing: 0em;
+    font-weight: 300;
+    max-width: 100%;
+    max-height: auto;
+    font-family: "Optima", Charcoal, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    opacity: 1;
+}
+
+nav a:hover {
+    background-color: lightgreen;
+    height: 35px;
+}
+
+header {
+    margin: 0 auto;
+	position: relative;
+    z-index: 100;
+    top: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.mouse-btn {
+    z-index: 100;
+    top: 0;
+    color: black;   
+    text-align: center;
+    font-size: 5vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mouse-btn:hover {
+    color: #23FE5D
+}
+
+
+/* Navbar */
+
+#nav_title {
+        float: left;
+        font-family: 'Montserrat', helvetica;
+        font-size: 36px;
+        font-weight: 700;
+        margin-left: 50px;
+}
+
+
+
+#navigation_spacing ul li {
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Opening Page */
+
+#top-background {
+    position: relative;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/intro-page/background.jpeg)
+}
+.top-page {
+    text-align: center;
+    position: relative;
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+.main_screen {
+	position: relative;
+    z-index: 100;
+    color: black;   
+    text-align: center;
+}
+.main_screen h1 {
+    color: #03BF0F;
+    font-size: 10vw;
+}
+
+#welcome {
+    font-size: 5vw;
+    padding-top: 120px;
+}
+
+#to {
+    font-size: 5vw;
+    padding-top: 80px;
+}
+
+#plant_life {
+    font-size: 5vw;
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+
+/* Plant Page */
+
+.mid-background {
+    position: relative;
+	min-width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-bottom: 0 !important;
+    background-color: whitesmoke;
+    /* background-image: url(images/plants2.jpeg) */
+}
+
+.about_page h1 {
+    color: #03BF0F;
+    font-size: 4vw;
+}
+.about_page h2 {
+    font-size: 2vw;
+}
+
+.intro-to-list {
+    margin-bottom: 75px;
+    margin-left: 50px;
+}
+
+.col-xl-3,
+.col-md-4, 
+.col-xs-6 {
+    border: solid 1px black;
+    margin: 35px 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.row img {
+    height: 50%;
+    width: 100%;
+    padding: 30px;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 90px 0;
+    width: 100%;
+    text-align: center !important;
+    display: block;
+    left: 0;
+    right: 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subscribe {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+
+#subscribeButton {
+    margin-top: 15px;
+}
+
+.socialMedia {
+    padding: 15px auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.socialMediaButtons {
+    z-index: 100;
+    top: 0;
+    color: black;   
+    text-align: center;
+    font-size: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.socialMediaButtons:hover {
+    color: #23FE5D
+}
+
+footer .form-group button {
+    margin-top: 30px;
+}
+
+footer .form-group .modal-header {
+    color: black;
+}
+
+footer .form-group .modal-footer {
+    padding-top: 0px;
+}
+
+footer .form-group .modal-body {
+    padding-bottom: 50px;
+    color: black;
+}
+
+
+/* RESIZING */
+
+@media (max-width: 1080px) {
+    .about_page h1 {
+        font-size: 10vw;
+    }
+    .about_page h2 {
+        font-size: 6vw;
+    }
+    .intro-to-list {
+        margin-bottom: 15px;
+    }
+    .subscribe {
+        width: 70%;
+    }
+    footer h3 {
+        font-size: 4.5vw;
+    }
+    .socialMediaButtons {
+        font-size: 10vw;
+    }
+
+    
+}
