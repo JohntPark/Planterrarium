@@ -16,21 +16,17 @@ $(function() {
       console.log("failed");
     }
   }
-});
-$(function() {
-    $("#feedbackSubmit").click(checkFeedback);
 
-    function checkFeedback() {
-        var feedbackText = document.getElementById("feedbackForm");
-        let isValidText =
-          feedbackText.checkValidity();
-          if(isValidText) {
-              $("#feedback").modal('hide');
-              $("#feedbackModal").modal('show');
-          } else {
-              $("#feedbackModal").modal('hide');
-          }
-    
+  $("#feedbackSubmit").click(checkFeedback);
+
+  function checkFeedback() {
+    var feedbackText = document.getElementById("feedbackForm");
+    let isValidText = feedbackText.checkValidity();
+    if (isValidText) {
+      $("#feedback").modal("hide");
+      $("#feedbackModal").modal("show");
+    } else {
+      $("#feedbackModal").modal("hide");
     }
-})
-
+  }
+});
